@@ -27,6 +27,8 @@ const TodoScreen = ({goBack, todo, onRemove, onSave}) => {
                 </View>
             </View>
 
+            <Text>EEEEE</Text>
+
             <EditModal 
                 value={todo.title} 
                 visible={modal} 
