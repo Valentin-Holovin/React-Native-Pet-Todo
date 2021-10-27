@@ -21,7 +21,7 @@ const MainScreen = ({addTodo, todos, removeTodo, openTodo}) => {
             <View style={styles.imgWrap}>
                 <Image 
                     style={styles.image}
-                    source={require('../../../img/cow_PNG50632.png')}
+                    source={require('../../../img/123.png')}
                     />
             </View>
     }
@@ -48,7 +48,9 @@ const styles = StyleSheet.create({
         padding: 10,
     },
     image:{
-        opacity: 0.8
+        width: '100%',
+        height: '87%', 
+        opacity: 0.7
     }
     
 });

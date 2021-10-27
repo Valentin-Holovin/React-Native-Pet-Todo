@@ -1,8 +1,9 @@
-import React, {useState} from 'react'
-import { View, StyleSheet, Text, ScrollView, FlatList, Dimensions, Alert } from 'react-native'
-import Navbar from '../../components/Navbar/Navbar'
+import React, {useState} from 'react';
+import { View, StyleSheet, Text, ScrollView, FlatList, Dimensions, Alert } from 'react-native';
+import Navbar from '../../components/Navbar/Navbar';
 import MainScreen from '../../screens/MainScreen/MainScreen';
-import TodoScreen from '../../screens/TodoScreen/TodoScreen'
+import TodoScreen from '../../screens/TodoScreen/TodoScreen';
+import * as Font from 'expo-font'
 
 const MainPages = () => {
     const [todoId, setTodoId] = useState(null)
