@@ -23,7 +23,7 @@ const AddTodo = ({onSubmit}) => {
                 value={value}
                 placeholder='Case name...'
             />
-            <Button style={styles.buttons} title='Add' onPress={pressHandler}/>
+           <Button style={styles.buttons} title='Add' onPress={pressHandler}/>
         </View>
     )
 };

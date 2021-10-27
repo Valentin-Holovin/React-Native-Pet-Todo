@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { View, StyleSheet, Text, Button } from 'react-native'
-import Card from '../../components/UI/Card';
+import Card from '../../UI/Card';
 import {COLORS} from '../../Colors/Colors'
 import EditModal from '../../components/EditModal/EditModal';
 
