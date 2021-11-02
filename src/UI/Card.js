@@ -20,6 +20,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         borderRadius: 10
     }
-})
+});
 
 export default Card
